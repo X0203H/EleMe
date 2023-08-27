@@ -1,0 +1,290 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "饿了么",
+				"navigationStyle": "custom",
+				"mp-weixin":{
+					"navigationStyle": "default"
+				}
+			}
+		}, {
+			"path": "pages/discover/discover",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"navigationStyle":"custom",
+				"mp-weixin":{
+					"navigationStyle": "default"
+				}
+			}
+		}, {
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单",
+				"navigationStyle":"custom",
+				"mp-weixin":{
+					"navigationStyle": "default"
+				}
+			}
+		}, {
+			"path": "pages/order/orderInfo",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"text":"\ue6b7",
+								"fontSrc": "/static/icon/iconfont.ttf",
+								"fontSize":"15px",
+								"width":"20px"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/orderConfirm/orderConfirm",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		}, {
+			"path": "pages/orderConfirm/children/order_note",
+			"style": {
+				"navigationBarTitleText": "订单备注"
+			}
+		}, {
+			"path": "pages/invoice/choose_invoice",
+			"style": {
+				"navigationBarTitleText": "选择发票信息"
+			}
+		}, {
+			"path": "pages/invoice/add_invoice",
+			"style": {
+				"navigationBarTitleText": "新增发票信息"
+			}
+		}, {
+			"path": "pages/invoice/edit_invoice",
+			"style": {
+				"navigationBarTitleText": "修改发票信息"
+			}
+		}, {
+			"path": "pages/pay/pay",
+			"style": {
+				"navigationBarTitleText": "在线支付",
+				"app-plus":{
+					"titleNView":{
+						"autoBackButton":false
+					}
+				}
+			}
+		},{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle":"custom",
+				"mp-weixin":{
+					"navigationStyle": "default"
+				}
+			}
+		}, {
+			"path": "pages/address/address",
+			"style": {
+				"navigationBarTitleText": "选择收货地址",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"text":"新增地址",
+								"fontSize":"15px"
+							}
+						]
+					}
+				}
+			}
+			
+		}, {
+			"path": "pages/address/add_address",
+			"style": {
+				"navigationBarTitleText": "添加地址"
+			}
+		}, {
+			"path": "pages/address/manage_address",
+			"style": {
+				"navigationBarTitleText": "我的地址"
+			}
+		}, {
+			"path": "pages/address/choose_address",
+			"style": {
+				"navigationBarTitleText": "选择地址"
+			}
+		}, {
+			"path": "pages/address/edit_address",
+			"style": {
+				"navigationBarTitleText": "地址编辑",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[
+							{
+								"text":"删除",
+								"fontSize":"15px"
+							}
+						]
+					}
+				}
+			}
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationStyle": "custom",
+				"mp-weixin":{
+					"navigationStyle": "default"
+				}
+			}
+		}, {
+			"path": "pages/categoryList/categoryList",
+			"style": {
+				"navigationBarTitleText": "分类列表",
+				"navigationStyle": "custom",
+				"mp-weixin":{
+					"navigationStyle": "default"
+				}
+			}
+		}, {
+			"path": "pages/combo/combo",
+			"style": {
+				"navigationBarTitleText": "品质套餐",
+				"navigationStyle": "custom",
+				"mp-weixin":{
+					"navigationStyle": "default"
+				}
+			}
+		}, {
+			"path": "pages/member/member",
+			"style": {
+				"navigationBarTitleText": "会员",
+				"navigationStyle": "custom",
+				"mp-weixin":{
+					"navigationStyle": "default"
+				}
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/file/file",
+			"style": {
+				"navigationBarTitleText": "文件展示"
+			}
+		}, {
+			"path": "pages/city/city",
+			"style": {
+				"navigationBarTitleText": "城市选择"
+			}
+		}, {
+			"path": "pages/storeIndex/storeIndex",
+			"style": {
+				"navigationBarTitleText": "店铺主页",
+				"navigationStyle": "custom",
+				"mp-weixin":{
+					"navigationStyle": "default"
+				}
+			}
+		}, {
+			"path": "pages/userSetting/userSetting",
+			"style": {
+				"navigationBarTitleText": "用户信息设置",
+				"navigationStyle": "custom",
+				"mp-weixin":{
+					"navigationStyle": "default"
+				}
+			}
+		}, {
+			"path": "pages/userSetting/children/setting",
+			"style": {
+				"navigationBarTitleText": "修改设置",
+				"navigationStyle": "custom",
+				"mp-weixin":{
+					"navigationStyle": "default"
+				}
+			}
+		}, {
+			"path": "pages/gold/goldShop",
+			"style": {
+				"navigationBarTitleText": "金币商城"
+			}
+		}, {
+			"path": "pages/gold/goldExchange",
+			"style": {
+				"navigationBarTitleText": "金币兑换"
+			}
+		}, {
+			"path": "pages/share/share",
+			"style": {
+				"navigationBarTitleText": "分享得现金"
+			}
+		}, {
+			"path": "pages/service/service",
+			"style": {
+				"navigationBarTitleText": "客服"
+			}
+		}, {
+			"path": "pages/rulerCenter/rulerCenter",
+			"style": {
+				"navigationBarTitleText": "规则中心"
+			}
+		}, {
+			"path": "pages/redPacket/redPacket",
+			"style": {
+				"navigationBarTitleText": "红包管理"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#3190e8",
+		"backgroundColor": "#3190e8",
+		"app-plus":{
+			"titleNView":{
+				"backgroundImage":"linear-gradient(90deg, #0af, #0085ff)"
+			}
+		},
+		"h5":{}
+		
+		
+		
+	},
+	"tabBar": {
+		"color": "#8e8e93",
+		"selectedColor": "#0089dc",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/sy.png",
+			"selectedIconPath": "static/image/sy-hover.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/discover/discover",
+			"iconPath": "static/image/fx.png",
+			"selectedIconPath": "static/image/fx-hover.png",
+			"text": "发现"
+		}, {
+			"pagePath": "pages/order/order",
+			"iconPath": "static/image/dd.png",
+			"selectedIconPath": "static/image/dd-hover.png",
+			"text": "订单"
+		}, {
+			"pagePath": "pages/user/user",
+			"iconPath": "static/image/wd.png",
+			"selectedIconPath": "static/image/wd-hover.png",
+			"text": "我的"
+		}]
+	}
+}
